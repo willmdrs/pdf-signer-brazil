@@ -4,7 +4,6 @@
   "description": "A JavaScript PDF signer with certificate A1 ICP-Brasil for NodeJS.",
   "main": "dist/sign.js",
   "dependencies": {
-    "dateformat": "^4.5.1",
     "node-forge": "^0.8.2",
     "png-js": "1.0.0",
     "rimraf": "^3.0.2",
