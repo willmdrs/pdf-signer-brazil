@@ -48,7 +48,7 @@ const signedPdf = sign.sign(pdfBuffer, p12Buffer, password, {
         transformOptions: { rotate: 0, space: 2, tilt: 0, xPos: 0, yPos: 25.4 },
       },
       {
-        value: 'Assinado em ' + dateFormat(new Date(), 'd/mm/yyyy HH:mm:ss'),
+        value: 'Assinado em ' + dateFormat(new Date(), 'd/mm/yyyy HH:MM:ss'),
         fontSize: 5,
         transformOptions: { rotate: 0, space: 2, tilt: 0, xPos: 0, yPos: 18 },
       },
