@@ -1,9 +1,10 @@
 {
-  "name": "pdf-signer",
-  "version": "1.1.2",
-  "description": "A JavaScript PDF signer for node.",
+  "name": "pdf-signer-brazil",
+  "version": "1.0.0",
+  "description": "A JavaScript PDF signer with certificate A1 ICP-Brasil for NodeJS.",
   "main": "dist/sign.js",
   "dependencies": {
+    "dateformat": "^4.5.1",
     "node-forge": "^0.8.2",
     "png-js": "1.0.0",
     "rimraf": "^3.0.2",
@@ -24,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vizicsaba89/pdf-signer.git"
+    "url": "git+https://github.com/willmdrs/pdf-signer-brazil.git"
   },
   "author": "",
   "license": "MIT",
@@ -33,12 +34,20 @@
     "pdf",
     "esign",
     "adobe",
-    "digital signature"
+    "digital signature",
+    "ecpf",
+    "ecnpj",
+    "cnpj",
+    "cpf",
+    "a1",
+    "icp",
+    "icp-brasil",
+    "brasil"
   ],
   "bugs": {
-    "url": "https://github.com/vizicsaba89/pdf-signer/issues"
+    "url": "https://github.com/willmdrs/pdf-signer-brazil.git/issues"
   },
-  "homepage": "https://github.com/vizicsaba89/pdf-signer#readme",
+  "homepage": "https://github.com/willmdrs/pdf-signer-brazil.git#readme",
   "jest": {
     "globals": {
       "ts-jest": {

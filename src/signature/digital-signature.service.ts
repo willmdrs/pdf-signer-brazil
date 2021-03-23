@@ -124,20 +124,7 @@ const getSigner = (privateKey: any, certificate: forge.pki.Certificate): any => 
   return {
     key: privateKey,
     certificate,
-    digestAlgorithm: forge.pki.oids.sha256,
-    authenticatedAttributes: [
-      {
-        type: forge.pki.oids.contentType,
-        value: forge.pki.oids.data,
-      },
-      {
-        type: forge.pki.oids.messageDigest,
-      },
-      {
-        type: forge.pki.oids.signingTime,
-        value: new Date().toString(),
-      },
-    ],
+    digestAlgorithm: forge.pki.oids.sha256
   }
 }
 
