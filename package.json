@@ -1,6 +1,6 @@
 {
   "name": "pdf-signer-brazil",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A JavaScript PDF signer with certificate A1 ICP-Brasil for NodeJS.",
   "main": "dist/sign.js",
   "dependencies": {
