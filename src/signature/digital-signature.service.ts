@@ -89,7 +89,8 @@ const getCertificate = (
 
     p7.addCertificate(rawCertificate)
 
-    certificate = getValidatedCertificate(privateKey, publicKey, rawCertificate)
+    if(!certificate)
+      certificate = getValidatedCertificate(privateKey, publicKey, rawCertificate)
   })
 
   if (!certificate) {
